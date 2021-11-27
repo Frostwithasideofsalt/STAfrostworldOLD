@@ -304,10 +304,8 @@
 		shape.setPos(x, y)
 
 		if(gvPlayer != 0) if(distance2(x, y, gvPlayer.x, gvPlayer.y) <= 16) {
-			gvPlayer.invincible = 60 * 25
+			gvPlayer.invincible = 60 * 15
 			deleteActor(id)
-			playMusic(musInvincible, -1)
-			gvLastSong = ""
 		}
 
 		drawSprite(sprStar, getFrames() / 10, x - camx, y - camy)

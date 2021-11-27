@@ -59,20 +59,13 @@
 				gvPlayer.vspeed = 0
 				mapDeleteSolid(mapshape)
 				deleteActor(id)
-				newActor(WoodChunks, x, y)
 				playSound(sndBump, 0)
+				newActor(Darknyan, x, y - 16)
 			}
 
-			if(abs(gvPlayer.hspeed) >= 3 && gvPlayer.anim == gvPlayer.anSlide) if(hitTest(slideshape, gvPlayer.shape)) {
-				gvPlayer.vspeed = 0
-				mapDeleteSolid(mapshape)
-				deleteActor(id)
-				newActor(WoodChunks, x, y)
-				playSound(sndBump, 0)
-			}
 		}
 
-		drawSprite(sprBoxItem, 0, x - 8 - camx, y - 8 - camy)
+		drawSprite(sprBoxItem, getFrames() / 16, x - 8 - camx, y - 8 - camy)
 	}
 
 	function _typeof() { return "WoodBlock" }
