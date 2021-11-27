@@ -259,16 +259,16 @@
                  "y":608
                 }, 
                 {
-                 "gid":226,
+                 "gid":210,
                  "height":16,
-                 "id":79,
-                 "name":"",
+                 "id":82,
+                 "name":"welcome",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":112,
-                 "y":432
+                 "x":320,
+                 "y":288
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -277,7 +277,7 @@
          "y":0
         }],
  "nextlayerid":19,
- "nextobjectid":80,
+ "nextobjectid":88,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -403,6 +403,19 @@
          "name":"sign",
          "spacing":0,
          "tilecount":25,
+         "tileheight":16,
+         "tilewidth":16
+        }, 
+        {
+         "columns":8,
+         "firstgid":1119,
+         "image":"..\/..\/..\/..\/..\/Downloads\/supertux-advance-main\/supertux-advance-main\/res\/gfx\/actors.png",
+         "imageheight":144,
+         "imagewidth":128,
+         "margin":0,
+         "name":"actors",
+         "spacing":0,
+         "tilecount":72,
          "tileheight":16,
          "tilewidth":16
         }],
