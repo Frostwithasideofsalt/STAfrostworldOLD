@@ -59,6 +59,7 @@
 				gvPlayer.vspeed = 0
 				mapDeleteSolid(mapshape)
 				deleteActor(id)
+				newActor(Poof, x, y)
 				playSound(sndBump, 0)
 				newActor(Darknyan, x, y - 16)
 			}
