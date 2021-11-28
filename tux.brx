@@ -79,7 +79,7 @@ switch(reschoice) {
 }
 
 //Uncomment this function if you want to play at actual GBA resolution
-//setResolution(240, 160)
+//setResolution(240, 145)
 
 gvScreen = newTexture(screenW(), screenH())
 bgPause = newTexture(screenW(), screenH())
@@ -109,7 +109,6 @@ strDifficulty = [
 startMain()
 menu = meMain
 config.playerchar = "Tux"
-startOverworld("res/map/overworld-0.json")
 
 update()
 while(!getQuit() && !gvQuit)
