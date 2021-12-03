@@ -82,4 +82,5 @@
 //Debug variabls
 ::gvFPS <- 0
 
+::gvIGT <- 0 //In-game time for the current level
 ::gvWeather <- 0
